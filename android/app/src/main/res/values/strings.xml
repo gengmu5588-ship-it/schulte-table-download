@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">舒尔特方格</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_home">首页</string>
+    <string name="nav_guide">指南目录</string>
+    <string name="nav_records">挑战记录</string>
+
+    <!-- Home Sub Tabs -->
+    <string name="tab_training">开始训练</string>
+    <string name="tab_plan">训练计划</string>
+
+    <!-- Training -->
+    <string name="start_training">开始训练</string>
+    <string name="stop_training">结束训练</string>
+    <string name="next_label">下一个</string>
+    <string name="mistakes_label">错误: %d</string>
+    <string name="time_format">%.2fs</string>
+    <string name="training_complete">训练完成!</string>
+    <string name="retry">再来一次</string>
+    <string name="view_records">查看记录</string>
+    <string name="best_time_label">最佳: %s</string>
+    <string name="level_label">等级: %s</string>
+
+    <!-- Benchmark Levels -->
+    <string name="level_expert">专家</string>
+    <string name="level_advanced">高级</string>
+    <string name="level_intermediate">中级</string>
+    <string name="level_beginner">初学者</string>
+
+    <!-- Plan -->
+    <string name="today_progress">今日已完成 %1$d/%2$d 次</string>
+    <string name="streak_days">已连续 %d 天</string>
+    <string name="daily_target">每日目标</string>
+    <string name="target_time">目标时间</string>
+    <string name="no_plan">暂无训练计划</string>
+    <string name="set_plan">设置计划</string>
+
+    <!-- Guide -->
+    <string name="guide_title_1">什么是舒尔特方格？</string>
+    <string name="guide_title_2">训练核心技巧</string>
+    <string name="guide_title_3">从哪个尺寸开始？</string>
+    <string name="guide_title_4">每天练习多久？</string>
+    <string name="guide_title_5">如何提升速度？</string>
+    <string name="guide_title_6">对速读的帮助</string>
+    <string name="guide_title_7">等级评定标准</string>
+    <string name="guide_title_8">常见错误</string>
+
+    <string name="guide_summary_1">由德国心理学家沃尔特·舒尔特开发的注意力训练工具</string>
+    <string name="guide_summary_2">视线聚焦中心，使用周边视野识别数字，避免逐格扫视</string>
+    <string name="guide_summary_3">初学者从3×3或4×4开始，5×5能在30秒内完成后再挑战更大方格</string>
+    <string name="guide_summary_4">每天5-10分钟，坚持比时长更重要，2-3周可见明显进步</string>
+    <string name="guide_summary_5">保持视线居中，扩大周边视野，减少眼球移动</string>
+    <string name="guide_summary_6">训练周边视野和眼球运动模式，提高阅读速度</string>
+    <string name="guide_summary_7">各尺寸的初学者/中级/高级/专家时间范围</string>
+    <string name="guide_summary_8">避免用手指引导、移动视线而非周边视野、急于求成等错误</string>
+
+    <string name="guide_content_1">舒尔特方格（Schulte Table）是由德国心理学家沃尔特·舒尔特在20世纪50年代开发的一种注意力评估和训练工具。\n\n它由一个填满随机排列数字的方格表组成。任务很简单：按升序（1、2、3…）尽快找到并点击每个数字。挑战在于用周边视野扫描整个方格，而不是逐格移动眼睛。\n\n今天，舒尔特方格被运动员、学生、速读者和任何希望提高认知表现的人广泛使用。</string>
+    <string name="guide_content_2">训练舒尔特方格的核心技巧：\n\n1. 将视线固定在方格中心\n保持眼睛在方格中心，用周边视野发现数字。这是最重要的技巧。\n\n2. 不要逐行扫描\n避免逐行阅读。让眼睛自然跳到数字出现的地方。\n\n3. 放松眼睛\n柔和焦点（散焦凝视）比锐利焦点更有效地激活周边视野。\n\n4. 减少眼球移动\n尝试在不移动视线的情况下找到下一个数字，训练大脑同时处理更宽的视野。</string>
+    <string name="guide_content_3">从较小的方格开始，先建立准确性，当你的用时趋于稳定时再挑战更大的方格。\n\n• 3×3：适合完全初学者，9个数字，快速上手\n• 4×4：简单级别，16个数字\n• 5×5：标准级别，25个数字，这是最常用的训练尺寸\n• 6×6~7×7：中级挑战\n• 8×8~10×10：高级/专家级别\n\n建议：一旦能在30秒内完成5×5，就可以挑战更大的方格。</string>
+    <string name="guide_content_4">每天5-10分钟是理想的练习时长。坚持比时长更重要。\n\n大多数用户在每天练习2-3周后会看到明显进步。\n\n建议的训练安排：\n• 每次3-5轮方格练习\n• 每轮之间休息30秒\n• 每天固定时间练习效果更佳\n• 可以在不同尺寸之间切换练习</string>
+    <string name="guide_content_5">提升速度的关键方法：\n\n1. 保持视线在方格中心\n这是最基本也是最重要的技巧，不要跟着手指或视线去找数字。\n\n2. 扩大周边视野范围\n通过练习，你的眼睛能在不移动的情况下看到更大区域。\n\n3. 减少眼球移动次数\n每次眼球移动都消耗时间，尽量用余光定位数字。\n\n4. 建立数字位置记忆\n反复练习后，大脑会更快地处理视觉信息。\n\n5. 保持放松状态\n紧张会影响反应速度，保持呼吸平稳和身体放松。</string>
+    <string name="guide_content_6">舒尔特方格训练直接改善速读所需的两个关键能力：\n\n1. 周边视野\n速读需要在不逐字阅读的情况下获取更多信息。舒尔特方格训练眼睛在不移动的情况下看到更宽的区域，减少注视时间。\n\n2. 眼球运动模式\n速读需要高效的眼球跳跃模式。舒尔特方格训练大脑快速定位目标，改善眼跳的准确性和速度。\n\n研究表明，每天10分钟舒尔特方格练习，持续2周，可使阅读速度提升15-25%。</string>
+    <string name="guide_content_7">等级评定标准（以完成时间划分）：\n\n3×3：初学者 15-25秒 | 中级 8-15秒 | 高级 4-8秒 | 专家 &lt;4秒\n4×4：初学者 30-50秒 | 中级 18-30秒 | 高级 10-18秒 | 专家 &lt;10秒\n5×5：初学者 60-90秒 | 中级 35-60秒 | 高级 20-35秒 | 专家 &lt;20秒\n6×6：初学者 90-150秒 | 中级 55-90秒 | 高级 30-55秒 | 专家 &lt;30秒\n7×7：初学者 120-210秒 | 中级 75-120秒 | 高级 45-75秒 | 专家 &lt;45秒\n8×8：初学者 180-300秒 | 中级 120-180秒 | 高级 60-120秒 | 专家 &lt;60秒\n9×9：初学者 240-420秒 | 中级 150-240秒 | 高级 90-150秒 | 专家 &lt;90秒\n10×10：初学者 360-600秒 | 中级 210-360秒 | 高级 120-210秒 | 专家 &lt;120秒</string>
+    <string name="guide_content_8">常见错误及纠正方法：\n\n1. 用手指引导视线\n错误：用手指在方格上滑动寻找数字。\n纠正：保持视线在中心，用周边视野定位。\n\n2. 移动视线而非使用周边视野\n错误：逐行或逐列扫视方格。\n纠正：固定视线，用余光扫描整个方格。\n\n3. 急于求成跳过大尺寸\n错误：从7×7或8×8开始练习。\n纠正：从3×3或4×4开始，循序渐进。\n\n4. 练习时间过长\n错误：一次练习超过30分钟。\n纠正：每天5-10分钟，短时高效。\n\n5. 忽略错误点击\n错误：只关注速度不关注准确性。\n纠正：保证低错误率的同时再追求速度。</string>
+
+    <!-- Records -->
+    <string name="no_records">暂无挑战记录</string>
+    <string name="filter_all">全部</string>
+    <string name="record_date_format">%1$tm/%1$td %1$tH:%1$tM</string>
+    <string name="best_record">最佳记录</string>
+    <string name="trend_chart">趋势图</string>
+
+    <!-- Grid Size -->
+    <string name="grid_size_format">%1$dx%1$d</string>
+    <string name="grid_size_default">5x5</string>
+</resources>

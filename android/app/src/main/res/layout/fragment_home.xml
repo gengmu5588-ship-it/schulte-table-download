@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <!-- Toolbar with SubTabs and GridSize Selector -->
+    <LinearLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/surface"
+        android:elevation="2dp">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/sub_tabs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tabMode="fixed"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/accent"
+            app:tabSelectedTextColor="@color/accent"
+            app:tabTextColor="@color/text_secondary"/>
+
+        <TextView
+            android:id="@+id/grid_size_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grid_size_default"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:textSize="14sp"
+            android:drawableEnd="@drawable/ic_dropdown_arrow"
+            android:drawablePadding="4dp"/>
+    </LinearLayout>
+
+    <!-- SubViewPager2 -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/sub_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

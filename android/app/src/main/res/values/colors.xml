@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2C3E50</color>
+    <color name="primary_variant">#1A252F</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="accent">#27AE60</color>
+    <color name="accent_variant">#1E8449</color>
+
+    <color name="background">#F8F9FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#2C3E50</color>
+
+    <color name="cell_default_bg">#FFFFFF</color>
+    <color name="cell_correct_bg">#D5F5E3</color>
+    <color name="cell_wrong_bg">#FADBD8</color>
+    <color name="cell_next_bg">#D6EAF8</color>
+    <color name="cell_text">#2C3E50</color>
+    <color name="cell_correct_text">#27AE60</color>
+    <color name="cell_wrong_text">#E74C3C</color>
+
+    <color name="divider">#E8ECEF</color>
+    <color name="text_secondary">#7F8C8D</color>
+    <color name="text_hint">#BDC3C7</color>
+    <color name="error">#E74C3C</color>
+    <color name="warning">#F39C12</color>
+</resources>
